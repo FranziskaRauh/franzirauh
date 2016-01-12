@@ -7,17 +7,37 @@ body{
 
 img{width:450px}
 
-.header{
-  background-color:grey;
-
+.name{
+  background-color:black;
+  color: white;
 }
 
-.alles{
+.logo{
+  background-color: red;
+}
+
+.Foto{
   text-align:center;
   margin-right:auto;
   margin-left:auto;
   width: 1100px;
-  background-color:red;
+  background-color:purple;
+}
+
+.text1{
+  background-color: blue;
+}
+
+.text2{
+  background-color: orange;
+}
+
+.text3{
+  background-color: yellow;
+}
+
+.info{
+  background-color: green;
 }
 
 div{}
