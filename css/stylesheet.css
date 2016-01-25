@@ -17,7 +17,9 @@ img{width:auto}
 nav ul li{
   display: inline;
   list-style-type: none;
-  padding: 5%;
+  margin: 6%;
+  font-size: 15pt;
+  font-variant: small-caps;
 
 }
 
@@ -35,13 +37,14 @@ nav ul li{
   margin-left: 5%;
   float:left;
   vertical-align: middle;
+  position: fixed;
 
 }
 
 .foto{
   margin-left:20%;
   width:auto;
-  height:450px;
+  height:650px;
   background:url(../images/Foto) no-repeat center center;
   background-size:cover;
 
