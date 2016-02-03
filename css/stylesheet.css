@@ -16,6 +16,10 @@ img {
   position: fixed;
 }
 
+.navigation_smartphone {
+  display: none;
+}
+
 nav ul {
   margin-top: 1%;
   margin-bottom: 1%;
@@ -26,7 +30,7 @@ nav ul {
 nav ul li {
   display: inline;
   list-style-type: none;
-  font-size: 24pt;
+  font-size: 26pt;
   font-variant: small-caps;
   font-weight: bolder;
   letter-spacing: 1px;
@@ -76,6 +80,7 @@ nav ul li a {
 /* Tablet 768 px*/
 
 @media screen and (max-width: 768px) {
+
     .text {
         width: 35%;
     }
@@ -86,7 +91,7 @@ nav ul li a {
 
     nav ul li {
       font-weight: bolder;
-      margin-left: 12%;
+      margin-left: 11%;
     }
 
     .foto {
@@ -100,8 +105,58 @@ nav ul li a {
 /* Smartphone 630 px */
 
 @media screen and (max-width: 630px) {
+
     .text {
         float: none;
         width: 75%;
+    }
+
+    .navigation {
+      display: none;
+    }
+
+    .navigation_smartphone {
+      float: left;
+      margin-top: 10%;
+      text-align: left;
+      background-color: inherit;
+      position: inherit;
+      display: block;
+    }
+
+    nav ul {
+      margin-top: inherit;
+      margin-bottom: inherit;
+      margin-left: inherit;
+    }
+
+    nav ul li {
+      display: inline;
+      font-size: 30pt;
+      letter-spacing: 3px;
+      margin-left: inherit;
+    }
+
+    a {
+      display: block;
+    }
+
+    .logo {
+      width: 12%;
+      height: 12%;
+      position: inherit;
+      display: block;
+      float: left;
+    }
+
+    .clear {
+      clear: both;
+    }
+
+    .foto {
+      margin-left: 20%;
+      margin-top: inherit;
+      width: auto;
+      height: 250px;
     }
 }
