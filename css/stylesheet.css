@@ -28,6 +28,7 @@ nav ul li {
   list-style-type: none;
   font-size: 24pt;
   font-variant: small-caps;
+  font-weight: bolder;
   letter-spacing: 1px;
   margin-left: 12%;
 }
@@ -54,12 +55,11 @@ nav ul li a {
 
 .foto {
   margin-left: 15%;
-  margin-top: 3%;
+  margin-top: 6%;
   width: auto;
   height: 650px;
   background:url(../images/Foto) no-repeat center center;
   background-size:cover;
-
 }
 
 .text {
@@ -78,6 +78,22 @@ nav ul li a {
 @media screen and (max-width: 768px) {
     .text {
         width: 35%;
+    }
+
+    nav ul {
+      margin-left: 12%;
+    }
+
+    nav ul li {
+      font-weight: bolder;
+      margin-left: 12%;
+    }
+
+    .foto {
+      margin-left: 15%;
+      margin-top: 8%;
+      width: auto;
+      height: 450px;
     }
 }
 
