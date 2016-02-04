@@ -117,7 +117,7 @@ nav ul li a {
 
     .navigation_smartphone {
       float: left;
-      margin-top: 10%;
+      margin-top: inherit;
       text-align: left;
       background-color: inherit;
       position: inherit;
@@ -135,6 +135,14 @@ nav ul li a {
       font-size: 30pt;
       letter-spacing: 3px;
       margin-left: inherit;
+    }
+
+    nav a {
+      padding-bottom: 50px;
+    }
+
+    .nav_last {
+      padding-bottom: 0;
     }
 
     a {
