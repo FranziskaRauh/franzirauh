@@ -57,6 +57,10 @@ nav ul li a {
   padding-top: 3%;
 }
 
+.clear {
+  clear: both;
+}
+
 .foto {
   margin-left: 15%;
   margin-top: 6%;
@@ -168,10 +172,6 @@ nav ul li a {
       position: inherit;
       display: block;
       float: left;
-    }
-
-    .clear {
-      clear: both;
     }
 
     .foto {
