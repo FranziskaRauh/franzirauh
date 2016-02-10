@@ -5,6 +5,8 @@
     <title>Website</title>
     <link href="CSS/stylesheet.css" rel="stylesheet" media="screen,projection" />
     <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/animatescroll.js"></script>
   </head>
 
   <body>
@@ -14,9 +16,9 @@
     <div class="navigation">
       <nav>
         <ul>
-          <li><a href="#">Franziska Rauh</a></li>
-          <li><a href="#">Works</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="#" onclick="$('#name').animatescroll();">Franziska Rauh</a></li>
+          <li><a href="#" onclick="$('#works').animatescroll();">Works</a></li>
+          <li><a href="#" onclick="$('#about').animatescroll();">About</a></li>
           <li><a href="mailto:rauh-franziska@web.de">Contact</a></li>
         </ul>
       </nav>
@@ -32,21 +34,22 @@
     <div class="navigation_smartphone">
       <nav>
         <ul>
-          <li><a href="#">Works</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="#" onclick="$('#name').animatescroll();">Franziska Rauh</a></li>
+          <li><a href="#" onclick="$('#works').animatescroll();">Works</a></li>
+          <li><a href="#" onclick="$('#about').animatescroll();">About</a></li>
           <li><a href="mailto:rauh-franziska@web.de" class="nav_last">Contact</a></li>
         </ul>
       </nav>
     </div>
 
-    <div class="wrapper">
+    <div class="wrapper" id="name">
 
       <div class="foto">
         <!--img src="images/Foto"/-->
       </div>
 
 
-      <div class="box">
+      <div class="box" id="works">
         <img src="images/bild1.jpg">
       </div>
 
@@ -103,7 +106,7 @@
       <div class="clear">
       </div>
 
-      <div class="box">
+      <div class="box" id="about">
         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
       </div>
 
