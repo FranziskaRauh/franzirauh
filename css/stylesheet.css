@@ -86,98 +86,89 @@ nav ul li a {
 
 @media screen and (max-width: 768px) {
 
-    .box {
-        width: 40%;
-        padding: 3%;
-        margin-left: 2%;
-    }
+  .clear {
+    clear: inherit;
+  }
 
-    .navigation {
-      height: 9%;
-    }
+  .box {
+      width: 40%;
+      padding: 3%;
+      margin-left: 2%;
+  }
 
-    nav ul {
-      margin-left: 12%;
-    }
+  .navigation {
+    height: 9%;
+  }
 
-    nav ul li {
-      font-weight: bolder;
-      margin-left: 11%;
-    }
+  nav ul {
+    margin-left: 12%;
+  }
 
-    .foto {
-      margin-left: 15%;
-      margin-top: 8%;
-      width: auto;
-      height: 450px;
-    }
+  nav ul li {
+    font-weight: bolder;
+    margin-left: 11%;
+  }
 
-    .box + .last {
-      margin-right: 2%;
-    }
+  .foto {
+    margin-left: 15%;
+    margin-top: 8%;
+    width: auto;
+    height: 450px;
+  }
+
+  .box + .last {
+    margin-right: 2%;
+  }
 }
 
 /* Smartphone 630 px */
 
 @media screen and (max-width: 630px) {
 
-    .box {
-        float: none;
-        width: 95%;
-        padding: 2%;
-        margin-left: inherit;
-    }
+  .navigation {
+    height: 7%;
+  }
 
-    .navigation {
-      display: none;
-    }
-
-    .navigation_smartphone {
-      float: left;
-      margin-top: inherit;
-      text-align: left;
-      background-color: rgba(255,255,255,0.7);
-      position: fixed;
-      display: block;
-    }
-
-    nav ul {
-      margin-top: inherit;
-      margin-bottom: inherit;
+  .box {
+      float: none;
+      width: 95%;
+      padding: 2%;
       margin-left: inherit;
-    }
+  }
 
-    nav ul li {
-      display: inline;
-      font-size: 30pt;
-      letter-spacing: 3px;
-      margin-left: inherit;
-    }
+  .wrapper {
+    padding-top: 15%;
+  }
 
-    nav a {
-      padding-bottom: 50px;
-    }
+  #first-li {
+    margin-left: 0;
+  }
 
-    .nav_last {
-      padding-bottom: 0;
-    }
+  nav ul {
+    margin-left: inherit;
+    text-align: center;
+  }
 
-    a {
-      display: block;
-    }
+  nav ul li {
+    display: inline;
+    font-size: 25pt;
+    letter-spacing: 1px;
+    margin-left: 7%;
+  }
 
-    .logo {
-      width: 75px;
-      height: 75px;
-      position: inherit;
-      display: block;
-      float: left;
-    }
+  .logo {
+    width: 60px;
+    height: 60px;
+    position: inherit;
+    display: block;
+    float: left;
+    padding-top: 14%;
+  }
 
-    .foto {
-      margin-left: 20%;
-      margin-top: inherit;
-      width: auto;
-      height: 250px;
-    }
+  .foto {
+    margin-left: 20%;
+    margin-top: inherit;
+    width: auto;
+    height: 250px;
+  }
 }
