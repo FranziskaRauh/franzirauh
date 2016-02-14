@@ -94,6 +94,7 @@ nav ul li a {
 
 .text + .last {
   margin-right: 0;
+  float: right;
 }
 
 /* Tablet 768 px*/
@@ -142,6 +143,7 @@ nav ul li a {
 
   .text + .last {
     margin-right: 2%;
+    float: right;
   }
 }
 
