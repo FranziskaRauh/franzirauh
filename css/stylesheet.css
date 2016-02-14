@@ -2,7 +2,9 @@
 
 body {
   font-family: 'Amatic SC', cursive;
-  font-size: 14pt;
+  font-size: 18pt;
+  letter-spacing: 3px;
+  font-weight: bolder;
 }
 
 img {
@@ -82,18 +84,24 @@ nav ul li a {
   margin-right: 0;
 }
 
+.text {
+  padding: 2%;
+  width: 28%;
+  float: left;
+  margin-top: 5%;
+  margin-right: 2%;
+}
+
+.text + .last {
+  margin-right: 0;
+}
+
 /* Tablet 768 px*/
 
 @media screen and (max-width: 768px) {
 
   .clear {
     clear: inherit;
-  }
-
-  .box {
-      width: 40%;
-      padding: 3%;
-      margin-left: 2%;
   }
 
   .navigation {
@@ -116,7 +124,23 @@ nav ul li a {
     height: 450px;
   }
 
+  .box {
+    width: 40%;
+    padding: 3%;
+    margin-left: 2%;
+  }
+
   .box + .last {
+    margin-right: 2%;
+  }
+
+  .text {
+    width: 40%;
+    padding: 3%;
+    margin-left: 2%;
+  }
+
+  .text + .last {
     margin-right: 2%;
   }
 }
@@ -127,13 +151,6 @@ nav ul li a {
 
   .navigation {
     height: 7%;
-  }
-
-  .box {
-      float: none;
-      width: 95%;
-      padding: 2%;
-      margin-left: inherit;
   }
 
   .wrapper {
@@ -170,5 +187,19 @@ nav ul li a {
     margin-top: inherit;
     width: auto;
     height: 250px;
+  }
+
+  .box {
+    float: none;
+    width: 95%;
+    padding: 2%;
+    margin-left: inherit;
+  }
+
+  .text {
+    float: none;
+    width: 95%;
+    padding: 2%;
+    margin-left: inherit;
   }
 }
